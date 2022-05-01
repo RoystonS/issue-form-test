@@ -29,8 +29,8 @@ body:
     attributes:
       label: Installation type
       options:
-        - label: Windows Store
-        - label: Steam
+        - Windows Store
+        - Steam
   - type: dropdown
     id: version
     attributes:
