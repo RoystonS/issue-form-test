@@ -18,27 +18,27 @@ body:
     validations:
       required: false
       
- - type: textarea
-   id: description
-   validations:
-     required: true
- - type: dropdown
-   id: installation-type
-   attributes:
-     label: Installation type
-     options:
-       - label: Windows Store
-       - label: Steam
- - type: dropdown
-   id: version
-   attributes:
-     label: Version
-     options:
-       - 0.7.0 (Latest)
-       - 0.6.0
-   validation:
-     required: true
- - type: textarea
-   attributes:
-     label: XML
-     render: xml
+  - type: textarea
+    id: description
+    validations:
+      required: true
+  - type: dropdown
+    id: installation-type
+    attributes:
+      label: Installation type
+      options:
+        - label: Windows Store
+        - label: Steam
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      options:
+        - 0.7.0 (Latest)
+        - 0.6.0
+    validation:
+      required: true
+  - type: textarea
+    attributes:
+      label: XML
+      render: xml
