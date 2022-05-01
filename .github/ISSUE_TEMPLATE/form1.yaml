@@ -1,0 +1,44 @@
+name: Form One
+description: This is the description
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - RoystonS
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is just some text
+  - type: input
+    id: contact
+    attributes:
+      label: The Label
+      description: Field description
+      placeholder: bob@foo.com
+    validations:
+      required: false
+      
+ - type: textarea
+   id: description
+   validations:
+     required: true
+ - type: dropdown
+   id: installation-type
+   attributes:
+     label: Installation type
+     options:
+       - label: Windows Store
+       - label: Steam
+ - type: dropdown
+   id: version
+   attributes:
+     label: Version
+     options:
+       - 0.7.0 (Latest)
+       - 0.6.0
+   validation:
+     required: true
+ - type: textarea
+   attributes:
+     label: XML
+     render: xml
