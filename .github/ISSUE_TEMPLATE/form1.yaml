@@ -36,7 +36,7 @@ body:
     attributes:
       label: Version
       options:
-        - 0.7.0 (Latest)
+        - 0.7.0
         - 0.6.0
     validations:
       required: true
