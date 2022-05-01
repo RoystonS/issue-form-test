@@ -38,7 +38,7 @@ body:
       options:
         - 0.7.0 (Latest)
         - 0.6.0
-    validation:
+    validations:
       required: true
   - type: textarea
     attributes:
