@@ -51,7 +51,7 @@ body:
     id: error
     attributes:
       label: The installation error
-      description: Paste here the error that Better Bravo Lights gave you when attempting to install:
+      description: Paste here the error that Better Bravo Lights gave you when attempting to install
       render: text
       placeholder: |
         Corrupt XML
