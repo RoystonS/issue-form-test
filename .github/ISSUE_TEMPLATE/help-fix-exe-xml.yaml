@@ -21,16 +21,6 @@ body:
       placeholder: 0.7.0
     validations:
       required: true
-
-  - type: dropdown
-    id: installation-type
-    attributes:
-      label: Flight Simulator installation type
-      options:
-        - Windows Store
-        - Steam
-    validations:
-      required: false
       
   - type: input
     id: exe_xml_path
@@ -56,7 +46,19 @@ body:
          </SimBase.Document>
     validations:
       required: true
-         
+
+  - type: textarea
+    id: error
+    attributes:
+      label: The installation error
+      description: Paste here the error that Better Bravo Lights gave you when attempting to install:
+      render: text
+      placeholder: |
+        Corrupt XML
+        
+    validations:
+      required: false
+
   - type: markdown
     attributes:
       value: |
