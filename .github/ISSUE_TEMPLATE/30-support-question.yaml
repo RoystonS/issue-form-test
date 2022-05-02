@@ -28,6 +28,8 @@ body:
       label: What are you trying to do?
       description: Please tell us what you're trying to achieve
       placeholder: I can't figure out how to get the HDG light to light up in the Concorde.
+    validations:
+      required: true
     
   - type: textarea
     id: bbl_problem
@@ -41,7 +43,7 @@ body:
     attributes:
       label: What have you tried already?
       description: It'll save us some effort if you tell us the alternative approaches you've already tried.
-      placeholder: I've tried setting `HDG` to be `L:CONC_HDG = 1` and `L:CONC_HDG` but neither worked
+      placeholder: I've tried setting `HDG` to be `L:CONC_HDG = 1` and `L:CONC_HDG` but both are reported as "not valid"
 
   - type: textarea
     id: bbl_extra
