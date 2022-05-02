@@ -1,8 +1,5 @@
 name: Request help fixing exe.xml file
 description: This is the description
-title: "[Bug]: "
-
-labels: ["bug", "triage"]
 assignees:
   - RoystonS
 body:
