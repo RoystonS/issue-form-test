@@ -6,7 +6,7 @@ assignees: RoystonS
 body:
   - type: markdown
     attributes:
-    value: |
+      value: |
         Please fill out this form with all the relevant information so we can help you out.
         
         We appreciate your questions as we can use them to improve the software and documentation!
