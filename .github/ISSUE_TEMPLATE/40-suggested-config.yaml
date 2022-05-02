@@ -27,8 +27,8 @@ body:
       label: Change type
       description: Is this adding a new aircraft or modifying one that BetterBravoLights already knows about?
       options:
-        - Adding
-        - Modifying
+        - New aircraft
+        - Modify existing aircraft
     validations:
       required: true
       
