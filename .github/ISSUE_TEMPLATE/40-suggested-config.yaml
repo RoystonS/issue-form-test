@@ -38,7 +38,7 @@ body:
       description: |
         "Which aircrafts are you modifying/adding?"
         "Please include the manufacturer of the simulated aircraft, not just the aircraft name, and for separately-installed addons, the version, if possible."
-      placeholder: DC Designs Stearman
+      placeholder: "DC Designs Stearman 1.0.3"
   
   - type: textarea
     id: bbl_config
