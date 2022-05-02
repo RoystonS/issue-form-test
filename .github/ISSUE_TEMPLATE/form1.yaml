@@ -1,6 +1,9 @@
 name: Form One
 description: This is the description
 title: "[Bug]: "
+installation-type: Steam
+version: "0.7.0"
+
 labels: ["bug", "triage"]
 assignees:
   - RoystonS
