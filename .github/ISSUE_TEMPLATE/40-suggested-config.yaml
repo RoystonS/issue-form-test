@@ -36,8 +36,8 @@ body:
     attributes:
       label: Aircrafts
       description: |
-        Which aircrafts are you modifying/adding? Please include the manufacturer of the simulated aircraft, not just the aircraft name,
-and for separately-installed addons, the version, if possible.
+        "Which aircrafts are you modifying/adding?"
+        "Please include the manufacturer of the simulated aircraft, not just the aircraft name, and for separately-installed addons, the version, if possible."
         For example, "DC Designs Stearman 1.0.3"
   
   - type: textarea
