@@ -14,7 +14,7 @@ body:
         comes with a one-click option that will populate this form for you automatically.
 
   - type: input
-    id: version
+    id: bbl_version
     attributes:
       label: Software version
       description: Please indicate which version of BetterBravoLights you have
@@ -23,7 +23,7 @@ body:
       required: true
       
   - type: input
-    id: exe_xml_path
+    id: bbl_exe_xml_path
     attributes:
       label: Location of my exe.xml file
       placeholder: C:\Users\myuser\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache
@@ -31,7 +31,7 @@ body:
       required: false
       
   - type: textarea
-    id: exe_xml_contents
+    id: bbl_exe_xml_contents
     attributes:
       label: Contents of my exe.xml file
       description: Paste the contents of your corrupted exe.xml file here
@@ -48,7 +48,7 @@ body:
       required: true
 
   - type: textarea
-    id: error
+    id: bbl_error
     attributes:
       label: The installation error
       description: Paste here the error that Better Bravo Lights gave you when attempting to install
