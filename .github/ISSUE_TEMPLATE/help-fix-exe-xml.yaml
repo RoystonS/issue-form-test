@@ -24,7 +24,7 @@ body:
   - type: dropdown
     id: installation-type
     attributes:
-      label: Flight simulator installation type
+      label: Flight Simulator installation type
       options:
         - Windows Store
         - Steam
@@ -52,6 +52,8 @@ body:
         </Launch.Addon>
          
          </SimBase.Document>
+    validations:
+      required: true
          
   - type: markdown
     attributes:
