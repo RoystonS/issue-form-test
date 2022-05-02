@@ -29,12 +29,12 @@ body:
         - Windows Store
         - Steam
     validations:
-      required: true
+      required: false
       
   - type: input
     id: exe_xml_path
     attributes:
-      label: Location of my `exe.xml` file
+      label: Location of my exe.xml file
       placeholder: C:\Users\myuser\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache
     validations:
       required: false
@@ -42,7 +42,8 @@ body:
   - type: textarea
     id: exe_xml_contents
     attributes:
-      label: Contents of my `exe.xml` file
+      label: Contents of my exe.xml file
+      description: Paste the contents of your corrupted exe.xml file here
       render: xml
       placeholder: |
         <?xml version="1.0" encoding="windows-1252"?>
