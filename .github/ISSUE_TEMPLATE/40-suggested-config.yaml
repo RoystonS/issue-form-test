@@ -53,9 +53,9 @@ body:
         See https://github.com/RoystonS/BetterBravoLights/blob/f4574ea871ac09f1936b48478ef1f9be8ea13ff9/BravoLights/Config.ini#L110-L117 for examples.
       render: ini
       placeholder: |
-        [Aircraft.Cool_New_Aircraft, Aircraft.Cool_New_Aircraft_Variant1]
-        
-        # Cool New Aircraft doesn't use the standard MSFS HDG Autopilot variable; according to `cockpit.xml` it uses `L:CNA_AUTOPILOT_HDG` instead.
+        ;; Cool New Aircraft
+        [Aircraft.Cool_New_Aircraft, Aircraft.Cool_New_Aircraft_Variant1]        
+        ; From cool-new-aircraft\html_ui\Pages\VCockpit\Instruments\NavSystems\CoolNew\NavSystem.js
         HDG = L:CNA_AUTOPILOT_HDG == 1
 
   - type: textarea
@@ -63,5 +63,5 @@ body:
     attributes:
       label: Other information
       description: |
-        Add other information here, such as where you got these values from, how confident you are that they're correct.
-        (I can't buy every possible addon aircraft so I'm going to be dependent on you to get some of these values correct.)
+        Add other information here, such as what they do, where you got these values from and how confident you are that they're correct.
+        (I can't buy every possible addon aircraft and am only an amateur simulator pilot.)
