@@ -8,7 +8,7 @@ body:
       value: |
         Use this form if you've developed some BetterBravoLights configuration that you think would be useful for others.  If we use your configuration we'll give you credit, of course!
         
-        If you're submitting multiple separate pieces of configuration for separate aircraft, please make submit this form once for each aircraft.
+        If you're submitting multiple separate pieces of configuration for separate aircraft, please submit this form once for each aircraft so that we can keep the changes and discussions separate.
 
   - type: dropdown
     id: bbl_version
@@ -38,7 +38,7 @@ body:
       description: |
         "Which aircrafts are you modifying/adding?"
         "Please include the manufacturer of the simulated aircraft, not just the aircraft name, and for separately-installed addons, the version, if possible."
-        For example, "DC Designs Stearman 1.0.3"
+      placeholder: DC Designs Stearman
   
   - type: textarea
     id: bbl_config
