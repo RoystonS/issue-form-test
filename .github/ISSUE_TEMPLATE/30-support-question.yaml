@@ -6,10 +6,10 @@ assignees: RoystonS
 body:
   - type: markdown
     attributes:
-      value: |
+    value: |
         Please fill out this form with all the relevant information so we can help you out.
-		
-		We appreciate your questions as we can use them to improve the software and documentation!
+        
+        We appreciate your questions as we can use them to improve the software and documentation!
 
   - type: dropdown
     id: bbl_version
@@ -24,18 +24,18 @@ body:
 
   - type: textarea
     id: bbl_what_doing
-	attributes:
-	  label: What are you trying to do?
-	  description: Please tell us what you're trying to achieve
-	  placeholder: I can't figure out how to get the HDG light to light up in the Concorde.
-	
+    attributes:
+      label: What are you trying to do?
+      description: Please tell us what you're trying to achieve
+      placeholder: I can't figure out how to get the HDG light to light up in the Concorde.
+    
   - type: textarea
     id: bbl_problem
-	attributes:
-	  label: What's the problem?
-	  description: What is (or isn't) happening as you'd expect?
-	  placeholder: BBL is reporting that my HDG configuration line isn't valid
-	  
+    attributes:
+      label: What's the problem?
+      description: What is (or isn't) happening as you'd expect?
+      placeholder: BBL is reporting that my HDG configuration line isn't valid
+      
   - type: textarea
     id: bbl_tried
     attributes:
@@ -49,4 +49,4 @@ body:
       label: Other information
       description: |
         Add other information here, such as other relevant software you have installed.
-    	
+        
